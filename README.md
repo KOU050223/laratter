@@ -1,14 +1,19 @@
 <!-- readme.md -->
 
-# test
+# Dockerコマンド
 
-## chapter01
+開始
 
-## chapter02
+```
+./vendor/bin/sail up -d
+```
 
-## chapter03
+終了
 
-## 更新2
+```
+./vendor/bin/sail down
+```
+
 
 ## DevelopBranchでの作業
 - 更新１回目
