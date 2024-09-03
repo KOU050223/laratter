@@ -1,6 +1,14 @@
 <!-- readme.md -->
 
-# Dockerコマンド
+## 開発確認用
+
+*application*  
+< http://localhost >  
+
+*phpmyadmin*  
+< http://localhost:8080 >    
+
+## Dockerコマンド
 
 開始
 
