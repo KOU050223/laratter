@@ -31,7 +31,7 @@ class TweetController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // dd($request->all());  requestの中身をすべて取得する
         $request->validate([
             'tweet' => 'required|max:255',
         ]);
@@ -46,7 +46,9 @@ class TweetController extends Controller
      */
     public function show(Tweet $tweet)
     {
-        //
+        //詳細画面を表示（index側でツイートを指定する->$tweetに入ってる）
+        // dd($tweet);送られてきた$tweetヲチェック
+        return view('tweets.show',compact('tweet'));
     }
 
     /**
