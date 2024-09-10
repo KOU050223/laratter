@@ -22,6 +22,17 @@
 ./vendor/bin/sail down
 ```
 
+## Tailwind CSSの適応
+```
+./vendor/bin/sail npm run build
+```
+
+## Test実行
+
+```
+./vendor/bin/sail php artisan test
+```
+
 
 ## DevelopBranchでの作業
 - 更新１回目
