@@ -48,6 +48,7 @@ class TweetController extends Controller
     {
         //詳細画面を表示（index側でツイートを指定する->$tweetに入ってる）
         // dd($tweet);送られてきた$tweetヲチェック
+        $tweet->load('comments');
         return view('tweets.show',compact('tweet'));
     }
 
